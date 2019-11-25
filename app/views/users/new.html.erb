@@ -1,0 +1,8 @@
+<h1>up</h1>
+
+    <%= form_for(@user) do |f| %>
+      <%= f.label :content %></br>
+      <%= f.text_field :content %></br>
+
+      <%= f.submit "Create my account", class: "btn btn-primary" %>
+    <% end %>
